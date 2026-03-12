@@ -17,7 +17,7 @@ FROM eclipse-temurin:17-jre
 WORKDIR /app
 
 # Copy the specific repackaged jar (not the .original)
-COPY --from=build /app/backend/target/unigov-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=build /app/backend/target/enigov-0.0.1-SNAPSHOT.jar app.jar
 
 # Create uploads directory
 RUN mkdir -p uploads

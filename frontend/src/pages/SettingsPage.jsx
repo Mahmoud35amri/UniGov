@@ -217,7 +217,7 @@ const SettingsPage = () => {
                                     </div>
                                     <div>
                                         <h3 className="text-xl font-bold text-slate-800 dark:text-white">{user?.fullName}</h3>
-                                        <p className="text-slate-500 font-medium">{user?.role === 'ROLE_DELEGUE' ? 'Délégué' : user?.role === 'ROLE_ADMINISTRATION' ? 'Administration' : 'Étudiant'}</p>
+                                        <p className="text-slate-500 font-medium">{user?.role === 'ROLE_DELEGUE' ? 'Délégué' : 'Étudiant'}</p>
                                         <p className="text-sm text-slate-400 mt-0.5">{user?.email}</p>
                                     </div>
                                 </div>

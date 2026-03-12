@@ -9,8 +9,8 @@
         <version>3.2.2</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.unigov</groupId>
-    <artifactId>unigov</artifactId>
+    <groupId>com.enigov</groupId>
+    <artifactId>enigov</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>EniGov</name>
     <description>Student Governance Platform Backend</description>

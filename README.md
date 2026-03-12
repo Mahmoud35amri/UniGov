@@ -1,4 +1,4 @@
-# UniGov — Plateforme de Gouvernance Étudiante
+# EniGov — Plateforme de Gouvernance Étudiante
 
 > Plateforme numérique de gouvernance interne pour l'École Nationale d'Ingénieurs de Carthage (ENICarthage).
 
@@ -6,7 +6,7 @@
 
 ## À propos
 
-**UniGov** est une application web full-stack qui centralise la communication entre les étudiants, les délégués et l'administration de l'ENICarthage. Elle permet de gérer les réclamations, les annonces, les sondages, les décisions officielles et la messagerie interne — le tout dans un seul espace sécurisé.
+**EniGov** est une application web full-stack qui centralise la communication entre les étudiants, les délégués et l'administration de l'ENICarthage. Elle permet de gérer les réclamations, les annonces, les sondages, les décisions officielles et la messagerie interne — le tout dans un seul espace sécurisé.
 
 ---
 
@@ -49,8 +49,7 @@
 | Rôle | Description |
 |------|-------------|
 | `ROLE_ETUDIANT` | Étudiant — accès lecture + soumission de réclamations et votes |
-| `ROLE_DELEGUE` | Délégué — publication d'annonces, gestion des réclamations et sondages |
-| `ROLE_ADMINISTRATION` | Administration — accès complet, gestion des décisions |
+| `ROLE_DELEGUE` | Délégué — publication d'annonces, gestion des réclamations, sondages et décisions |
 
 ---
 
@@ -103,9 +102,9 @@ VITE_API_URL=http://localhost:8080/api
 ## Structure du Projet
 
 ```
-unigov-platform/
+enigov-platform/
 ├── backend/                  # Spring Boot API
-│   └── src/main/java/com/unigov/
+│   └── src/main/java/com/enigov/
 │       ├── controller/       # Endpoints REST
 │       ├── entity/           # Entités MongoDB
 │       ├── repository/       # Couche données

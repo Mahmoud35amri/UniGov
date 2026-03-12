@@ -1,6 +1,6 @@
-# UniGov - Deployment & Execution Guide
+# EniGov - Deployment & Execution Guide
 
-Follow these steps to get the UniGov platform running on your local machine.
+Follow these steps to get the EniGov platform running on your local machine.
 
 ## Prerequisites
 - Java 17 or higher
@@ -10,7 +10,7 @@ Follow these steps to get the UniGov platform running on your local machine.
 ## 1. Backend Setup (Spring Boot)
 1. **Database Configuration**:
    - Ensure MySQL is running.
-   - The application will automatically create `unigov_db` if it doesn't exist (configured in `application.properties`).
+   - The application will automatically create the database if it doesn't exist (configured in `application.properties`).
    - Default user is `root` with no password. Edit `backend/src/main/resources/application.properties` if your MySQL setup differs.
 
 2. **Run the Backend**:

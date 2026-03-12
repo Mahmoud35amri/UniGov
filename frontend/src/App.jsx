@@ -105,7 +105,7 @@ const AnimatedRoutes = () => {
                     </ProtectedRoute>
                 } />
                 <Route path="/admin-stats" element={
-                    <RoleProtectedRoute allowedRoles={['ROLE_DELEGUE', 'ROLE_ADMINISTRATION']}>
+                    <RoleProtectedRoute allowedRoles={['ROLE_DELEGUE']}>
                         <PageTransition><AdminDashboard /></PageTransition>
                     </RoleProtectedRoute>
                 } />

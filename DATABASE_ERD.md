@@ -1,4 +1,4 @@
-# UniGov - Database ERD
+# EniGov - Database ERD
 
 ```mermaid
 erDiagram

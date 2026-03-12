@@ -1,6 +1,6 @@
 # Guide de Déploiement Backend (API Spring Boot) 🚀
 
-Pour déployer votre backend UniGov en production, voici les étapes recommandées :
+Pour déployer votre backend EniGov en production, voici les étapes recommandées :
 
 ## 1. Préparation de la Base de Données (MongoDB Atlas)
 1.  Créez un compte sur [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
@@ -14,8 +14,8 @@ Pour déployer votre backend UniGov en production, voici les étapes recommandé
 2.  Ajoutez un nouveau service via votre dépôt.
 3.  **Variables d'Environnement** :
     - `MONGODB_URI` : Votre connection string Atlas.
-    - `JWT_SECRET` : Une phrase longue et complexe (ex: `votre_super_secret_unique_pour_unigov_2026`).
-    - `ALLOWED_ORIGINS` : L'URL de votre frontend sur Vercel (ex: `https://unigov.vercel.app`).
+    - `JWT_SECRET` : Une phrase longue et complexe (ex: `votre_super_secret_unique_pour_enigov_2026`).
+    - `ALLOWED_ORIGINS` : L'URL de votre frontend sur Vercel (ex: `https://enigov.vercel.app`).
     - `SERVER_PORT` : `8081` (Railway détecte généralement le port automatiquement, mais c'est plus sûr).
 
 ## 3. Déploiement via Docker

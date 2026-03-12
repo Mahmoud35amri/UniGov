@@ -48,8 +48,8 @@ graph LR
 
 | Composant | Hébergeur | Technologie | URL |
 | :--- | :--- | :--- | :--- |
-| **Frontend** | **Vercel** | CI/CD automatique via GitHub | [unigovplatform.vercel.app](https://unigovplatform.vercel.app/) |
-| **Backend** | **Railway** | Docker (Containerization) | [unigov-platform-production.up.railway.app](https://unigov-platform-production.up.railway.app/) |
+| **Frontend** | **Vercel** | CI/CD automatique via GitHub | [enigovplatform.vercel.app](https://enigovplatform.vercel.app/) |
+| **Backend** | **Railway** | Docker (Containerization) | [enigov-platform-production.up.railway.app](https://enigov-platform-production.up.railway.app/) |
 | **Database** | **MongoDB Atlas** | DB-as-a-Service Cloud | *Privé* |
 
 ---
